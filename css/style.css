@@ -1,0 +1,77 @@
+header h1{
+    font-family:'Trebuchet MS', Arial, sans-serif;
+}
+
+.container_postagem{
+    width: 500px;
+    height: 760px;
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.container_postagem:last-child{
+    width: 500px;
+    height: 720px;
+}
+
+.container_postagem h3{
+    font-family: sans-serif;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.container-perfil{
+    display: flex;
+    align-items: center;
+}
+
+.foto_perfil_postagem{
+    width: 50px;
+    height: 50px;
+    margin: 20px 0 0 20px;
+    background-image: url('../img/foto_1.jpg');
+    background-size:cover;
+    background-position: center;
+    border-radius: 50%;
+    border: 1px solid rgb(184, 184, 184);
+    display: inline-block
+}
+
+.postagem img{
+    width: 500px;
+    margin-top: 20px;
+}
+
+.containe-postagem{
+    margin: 10px 0 0 10px;
+}
+
+.containe-postagem a{
+    text-decoration: none;
+    color:rgb(184, 184, 184);
+}
+
+.strong{
+    font-weight: 600;
+}
+
+.data{
+    color:rgb(138, 138, 138);
+}
+
+.footer-postagem{
+    border-top: 1px solid rgb(203, 203, 203);
+
+}
+
+.footer-postagem a{
+    text-decoration: none;
+    padding-left: 200px;
+}
+
+.comentario{
+    color: rgb(184, 184, 184);
+}
+
